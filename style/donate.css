@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .header {
@@ -233,3 +234,65 @@ p {
     margin-left: 1.5rem;
 }
 /* =========================== */
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.update-text{
+    text-align: center;
+    
+}
+.update-text h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.update-input {
+    margin-top: 2rem;
+    height: 9rem;
+    width: 41rem;
+    background-color: #ffecc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.update-input input {
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding: 0 1rem;
+    background-color: lightgrey;
+}
+.update-input .btn{
+    margin-top: 0;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+.footer{
+    margin-top: 9rem;
+    height: 9rem;
+    width: 100%;
+    background-color: black;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer h1{
+    /* font-family: 'Moon Dance', cursive; */
+    /* font-family: 'Sevillana', cursive; */
+    /* font-family: 'Passions Conflict', cursive; */
+    /* font-family: 'Inspiration', cursive; */
+    font-family: 'Dancing Script', cursive;
+    color: #ff4639;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
