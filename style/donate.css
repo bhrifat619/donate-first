@@ -286,11 +286,9 @@ p {
     flex-direction: column;
 }
 .footer h1{
-    /* font-family: 'Moon Dance', cursive; */
-    /* font-family: 'Sevillana', cursive; */
-    /* font-family: 'Passions Conflict', cursive; */
-    /* font-family: 'Inspiration', cursive; */
+   
     font-family: 'Dancing Script', cursive;
+    
     color: #ff4639;
     margin-bottom: 1rem;
     font-weight: 700;
